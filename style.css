@@ -1,15 +1,38 @@
-/* body {
-  background-color: grey;
-} */
+@font-face {
+  font-family: "CalFB";
+
+  src: url(./assets/fonts/./CALIFB.TTF);
+}
+
+body {
+  font-family: "DMserif";
+  background: url(./assets/images/photo_2022-12-05_08-01-32.jpg) center/cover;
+  min-height: 100vh;
+  /* vh = 100 % de lma taille de l'écran */
+
+}
 
 h1 {
   text-transform: uppercase;
-  color: rgb(188, 55, 161);
+  color: rgb(0, 0, 0);
   letter-spacing: 5px;
   text-align: center;
   /* text-decoration-line: underline; */
   /* taille de police en rem */
-  font-size: 2.5 rem;
+  font-size: 3 rem;
   text-shadow: 0 0 0 black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+  height: 50vh;
+}
+
+main {
+  height: 500px;
+  width: 90%;
+  /* width = s'adapte à la taille de l'écran */
+  background: rgba(131, 179, 213, 0.453);
+  /* centrer une boîte */
+  margin: 0 auto;
+  /* valeur haut/bas droite/gauche */
 }
